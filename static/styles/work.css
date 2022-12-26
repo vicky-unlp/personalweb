@@ -1,0 +1,114 @@
+/*PRINCIPAL*/
+
+.principal{
+    background-image: url(/static/portfolio-background.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .container{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .container .title{
+    font-family: 'Pacifico', cursive;
+    font-size: 64px;
+    font-weight: 600;
+    color: #d84f4f;
+    text-align: center;
+}
+
+.principal .container .subtext{
+    font-size: 30px;
+    font-weight: 300;
+    color: #525252;
+    text-align: center;
+}
+
+/*WORK EXPERIENCE*/
+
+.work-experience{
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.work-experience .img img{
+    width: 450px;
+}
+
+.work-experience .text{
+    padding: 25px 50px;
+}
+
+.work-experience .text .title{
+    font-size: 35px;
+    font-weight: 500;
+    color: #525252;
+}
+
+.work-experience .text hr{
+    color: #525252;
+}
+
+.work-experience .text .ubication,
+.work-experience .text .info{
+    font-size: 20px;
+    font-weight: 400;
+    color: #525252;
+}
+
+.work-experience .text .info{
+    padding: 20px 0;
+}
+
+/*MESSAGE*/
+
+.message{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.message .container{
+    margin: 50px 200px;
+    width: 800px;
+    padding: 30px;
+    background-color: #f9b5b5;
+    border: outset 	#d84f4f;
+    display: flex;
+}
+
+.message .container .img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #525252;
+}
+
+.message .container .text{
+    max-width: 350px;
+    padding: 0 30px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.message .container .text .title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #525252;
+    text-align: center;
+}
+
+.message .container .text .subtext{
+    font-size: 20px;
+    font-weight: 300;
+    color: #525252;
+    text-align: center;
+}
+

@@ -1,0 +1,125 @@
+/*PRINCIPAL*/
+
+.principal{
+    background-image: url(/static/portfolio-background.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .container{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .container .title{
+    font-family: 'Pacifico', cursive;
+    font-size: 64px;
+    font-weight: 600;
+    color: #d84f4f;
+    text-align: center;
+}
+
+.principal .container .subtext{
+    font-size: 30px;
+    font-weight: 300;
+    color: #525252;
+}
+
+/*CERTIFICATES*/
+
+.section-title{
+    margin: 100px 80px;
+    font-size: 25px;
+    color: #525252;
+}
+
+.section-title h2{
+    font-weight: 500;
+}
+
+.education{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.certificate{
+    width: 250px;
+    height: 220px;
+    border: 2px solid #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0 0 10px 3px #bbbbbb;
+    vertical-align: top;
+    color: #525252;
+}
+
+.certificate img{
+    width: 100px;
+    height: 100px;
+}
+
+.certificate .text .title{
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+/*TABLE*/
+
+.courses {
+    margin: 100px 0;
+    padding: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px 3px #bbbbbb;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courses thead tr{
+    background-color: #427e35;
+    color: #ffffff;
+    text-align: left;
+}
+
+.courses th,
+.courses td{
+    padding: 12px 15px;
+    min-width: 150px;
+}
+
+.courses tbody tr{
+    border-bottom: 1px solid #b9eead;
+    font-weight: 500;
+    color: #525252;
+}
+
+.courses tbody tr .title{
+    width: 350px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.courses tbody tr:nth-of-type(even) {
+    background-color: #e1fcda;
+}
+
+.courses tbody tr:last-of-type {
+    border-bottom: 2px solid #427e35;
+}
+
+.courses tbody tr:hover {
+    color: #427e35;
+}
